@@ -1,0 +1,56 @@
+body {
+  background-image: url("images/howl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.congratulations {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+p.greeting {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  color: pink;
+  text-shadow: 3px 3px black;
+}
+
+p.wishing {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+p.poem {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  margin-top: 100px;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 100px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+p.sign-off {
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  color: plum;
+  text-shadow: 2px 2px black;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}

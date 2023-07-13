@@ -4,53 +4,55 @@ body {
   background-size: cover;
 }
 
-img.congratulations {
+.congratulations-image {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 400px;
-}
-
-p.greeting {
-  text-align: center;
-  font-size: 50px;
-  font-family: Georgia, serif;
-  color: pink;
-  text-shadow: 3px 3px black;
-}
-
-p.wishing {
-  text-align: center;
-  font-size: 30px;
-  font-family: Arial, sans-serif;
-  color: white;
-  text-shadow: 3px 3px black;
-}
-
-p.poem {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: fit-content;
-  margin-top: 100px;
+}
+
+.greeting-text {
+  color: pink;
+  font-family: Georgia, serif;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+.wishing-text {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+.poem-text {
+  background-color: lightgray;
+  border-radius: 5px;
   font-size: 40px;
   font-style: italic;
   line-height: 100px;
-  background-color: lightgray;
-  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: fit-content;
 }
 
-p.sign-off {
-  text-align: center;
-  font-size: 25px;
-  font-family: cursive;
+.sign-off-text {
   color: plum;
+  font-family: cursive;
+  font-size: 25px;
+  margin-bottom: 100px;
+  text-align: center;
   text-shadow: 2px 2px black;
 }
 
 iframe {
   display: block;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
 }

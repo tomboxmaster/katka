@@ -1,7 +1,8 @@
 body {
   background-image: url("images/howl.png");
+  background-position-x: 35%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 100%;
 }
 
 .congratulations-image {
